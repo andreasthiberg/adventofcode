@@ -2,7 +2,7 @@
 # and then multiply those two numbers together.
 
 # Add numbers from textfile into a list.
-with open('expensereport') as f:
+with open('day1input') as f:
     expenses = []
     for line in f:
         expenses.append(int(line))

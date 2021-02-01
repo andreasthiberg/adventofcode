@@ -11,8 +11,8 @@
 validPasswordCountOne = 0
 validPasswordCountTwo = 0
 
-# Enter list of passwords and rules into list.
-with open('passwords') as f:
+# Enter list of day2input and rules into list.
+with open('day2input') as f:
     passwordInfo = f.read().splitlines()
 
 
